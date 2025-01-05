@@ -1,0 +1,23 @@
+// Colors
+$slate-900: #1f314f;
+$slate-500: #68778d;
+$slate-300: #d5e1ef;
+$white: #ffffff;
+
+// Typography
+$outfit: "Outfit", serif;
+
+@mixin outfit-bold {
+  font-family: $outfit;
+  font-feature-settings: 'liga' off, 'clig' off;
+  font-weight: 700;
+  letter-spacing: 0px;
+  line-height: 120%;
+}
+
+@mixin outfit-regular {
+  font-family: $outfit;
+  font-feature-settings: 'liga' off, 'clig' off;
+  letter-spacing: 0.2px;
+  line-height: 140%;
+}
